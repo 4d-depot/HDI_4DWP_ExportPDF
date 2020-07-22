@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="9">
+	<com.4d>
+		<deployment>
+			<options/>
+		</deployment>
+		<general startup_environnement="1"/>
+		<compiler>
+			<options compilation_path="3"/>
+			<typage default_for_button="2"/>
+		</compiler>
+		<interface>
+			<user splash_screen="false"/>
+		</interface>
+		<server>
+			<network>
+				<options use_legacy_network_layer="false"/>
+				<client_server use_encryption="false"/>
+			</network>
+		</server>
+		<database>
+			<misc/>
+		</database>
+	</com.4d>
+</preferences>

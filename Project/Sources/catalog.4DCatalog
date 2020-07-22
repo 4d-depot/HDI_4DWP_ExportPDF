@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_4DWP_ExportPDF" uuid="2D4F6103DC084198BFC0283C03D0A0B2" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="DOC" uuid="5FFB6E4662E84076BB60B2CCF062C87D" id="1">
+		<field name="ID" uuid="CF01C76D9B944C3282BEF752A9145C75" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="SampleDoc" uuid="5C95D504D9BF4F2DA28C82DB2076D1E1" type="21" never_null="true" id="2"/>
+		<field name="Title" uuid="C1973FEF696F4CCFBB48F8C3B3108BAE" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Order" uuid="ECB3E95C3CB54CC1A29680C775690D9B" type="4" never_null="true" id="4"/>
+		<field name="SamplePict" uuid="0CE2D22343F94BD5B2CAA9590AA21AD6" type="12" never_null="true" id="5"/>
+		<primary_key field_name="ID" field_uuid="CF01C76D9B944C3282BEF752A9145C75"/>
+		<table_extra input_form="Input1" output_form="Output">
+			<editor_table_info displayable_fields_count="5">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="149.82421875" top="31.171875" width="120" height="164.3046875"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="D3C3B140466F4104BE1ED1A87047F33E" type="7">
+		<field_ref uuid="CF01C76D9B944C3282BEF752A9145C75" name="ID">
+			<table_ref uuid="5FFB6E4662E84076BB60B2CCF062C87D" name="DOC"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="HDI_4DWP_ExportDocx" structure_file_name="HowDoI" data_file_path=":HowDoI.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>
